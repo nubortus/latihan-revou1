@@ -11,7 +11,7 @@ const tanggalLahirInput = document.getElementById('tanggal_lahir');
 
 tanggalLahirInput.type = 'date';
 
-//output 
+//outpt 
 document.addEventListener('DOMContentLoaded', function() {
   document.getElementById('myForm').addEventListener('submit', function(event) {
       event.preventDefault();
